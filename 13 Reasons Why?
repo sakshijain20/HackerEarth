@@ -1,0 +1,9 @@
+A,B,C=[int(x) for x in input().split()]  
+temp=B
+B=A
+A=temp
+
+A=A*C
+B=B+C
+
+print(A,B)
